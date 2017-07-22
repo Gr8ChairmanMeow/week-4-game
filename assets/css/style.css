@@ -1,0 +1,107 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url("../images/purple.jpg");
+}
+
+/*classes below*/
+.container{
+	position:relative;
+	border:yellow dotted 2px;
+	margin:auto;
+	height:60em;
+}
+
+.crybox{
+	position:relative;
+	width:4em;
+	height:4em;
+	background:white;
+	border:black solid 1px;
+	float:left;
+	margin-right: 1em;
+}
+
+.row{
+	position:relative;
+	padding-left:1.5em;
+	width:100%;
+	top:7em;
+	height:auto;
+	display:inline-block;
+	margin-bottom:1em;
+}
+
+/*ids below*/
+#instruct{
+	padding:1em;
+	font-weight:bold;
+	color:#9aa84f;
+	position:relative;
+	background:#fbe7cc;
+	margin-left:1.5em;
+	margin-bottom:1.5em;
+	width:20em;
+	top:8em;
+}
+
+#number{
+	text-align: center;
+	font-size:36px;
+	color:white;
+	font-weight: bold;
+	padding-top:1em;
+	position:relative;
+	background:#5BC880;
+	float:left;
+	width:5em;
+	height:3.1em;
+	float:left;
+}
+
+#score_text{
+	background:#2BA194;
+	width:15em;
+	color:white;
+	padding:0.1em;
+}
+
+#score{
+	background:#2BA194;
+	color:white;
+	width:6.67em;
+	margin-top:0.1em;
+	text-align: center;
+	height:3em;
+	padding-top:1em;
+	font-size:36px;
+}
+
+#title {
+	color:white;
+	font-size:24px;
+	font-weight:bolder;
+	position:absolute;
+	text-align:center;
+	margin-top:1em;
+	margin-left:1em;
+	background:#C97127;
+	width:8em;
+	height:4em;
+	padding-top:1.5em;
+}
+
+#winloss{
+	position:relative;
+	background:#4BFDFE;
+	padding-top:1em;
+	padding-left:0.5em;
+	float:left;
+	width:5em;
+	height:7em;
+	left:1em;
+	line-height: 1.5;
+	float:left;
+}
