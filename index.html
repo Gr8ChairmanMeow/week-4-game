@@ -3,12 +3,9 @@
 <head>
 	<meta charset="UTF-8">
 	<title>CrystalsCollector</title>
-	<script
-  src="https://code.jquery.com/jquery-3.2.1.js"
-  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
-  crossorigin="anonymous"></script>
   	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   	<script type="text/javascript" src="assets/javascript/game.js"></script>
 </head>
 <body>
@@ -41,14 +38,14 @@
 
 			<div id="number">
 				
-				39
+				<span id="the_num">39</span>
 
 			</div>
 
 			<div id="winloss">
 		
-				<p>Wins: </p>
-				<p>Losses: </p>		
+				<p>Wins: <span id="wins">0</span></p>
+				<p>Losses: <span id="losses">0</span></p>		
 
 			</div>
 
@@ -57,18 +54,26 @@
 		<div class="row">
 
 			<div class="crybox">
+				
+				<img src="assets/images/red_crystal.JPG" id="red" alt="Red Crystal" height="62" width="62"/>
 
 			</div>
 
 			<div class="crybox">
 
-			</div>
-
-			<div class="crybox">
+				<img src="assets/images/green_crystal.jpg" id="green" alt="Green Crystal" height="62" width="62"/>
 
 			</div>
 
 			<div class="crybox">
+
+				<img src="assets/images/blue_crystal.jpg" id="blue" alt="Blue Crystal" height="62" width="62"/>
+
+			</div>
+
+			<div class="crybox">
+
+				<img src="assets/images/purple_crystal.jpg" id="purple" alt="Purple Crystal" height="62" width="62"/>
 
 			</div>
 
@@ -84,7 +89,7 @@
 
 			<div id="score">
 
-				0
+				<span id="tot_score">0</span>
 
 			</div>
 
